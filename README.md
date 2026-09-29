@@ -7,14 +7,17 @@ Tested on an iPhone 6 running iOS 10.2.1 with Bioshock 1.3.5.
 ## What it fixes
 
 - Menu never loads (same as the community iOS 9+ fix)
-- Audio halfway broken (scripted bits)
+- Audio halfway broken (scripted bits). Since 1.1.0 this is handled by the **FMODFix** dependency, which fixes the
+  same FMOD Ex bug in every affected game (Dead Space, Mass Effect Infiltrator, ...)
 
 ## Install
 
-Install the `.deb` from the releases page (or build it yourself).
+Install the `.deb` from the releases page (or build it yourself). 
+
+Since `v1.1.0` this tweak requires **FMODFix** (`com.xernium.fmodfix` >= 1.0.0).
 
 If you applied the community patch (NOP at`0x018A4518`), you can keep it or go back to the original binary, the fix
-used here doesn't interfere.
+used here doesn't interfere. You honestly don't need this tweak at all if you have that fix, only the **FMODFix** tweak.
 
 
 ## Build
