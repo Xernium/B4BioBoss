@@ -12,7 +12,9 @@ Tested on an iPhone 6 running iOS 10.2.1 with Bioshock 1.3.5.
 
 ## Install
 
-Install the `.deb` from the releases page (or build it yourself). 
+Add the repo **[xernium.github.io](https://xernium.github.io/)** (`https://xernium.github.io/`) to Cydia, Zebra or Sileo and install it from there.
+
+Or install the `.deb` from the releases page (or build it yourself). 
 
 Since `v1.1.0` this tweak requires **FMODFix** (`com.xernium.fmodfix` >= 1.0.0).
 
